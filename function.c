@@ -86,14 +86,3 @@ void Cut(Node* dummy_head, int x, int y) {
     new_node->next = node_x->next;
     node_x->next = new_node;
 }
-
-/*
-4 3
-4: 1 2 3 4
-2: 8 7
-2: 5 6
-1: 9
-Merge 4 2
-Cut 1 2
-Cut 3 1
-*/
